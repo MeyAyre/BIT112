@@ -1,4 +1,11 @@
+html {
+  font-family: sans-serif;
+}
+nav{
+  font-family: "Ubuntu", sans-serif;
+}
 #logoSize{
-  width: 300px;
-  height: 200px;
+  width: 305px;
+  height: 205px;
+  border: solid black thick;
 }

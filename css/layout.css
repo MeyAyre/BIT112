@@ -22,8 +22,8 @@ a:hover, a:visited, a:link, a:active{
 }
 #logo{
   position: absolute;
-  left: -20px;
-  top: 5px;
+  left: -25px;
+  top: -1px;
 }
 article div{
   width: 50%;
