@@ -1,11 +1,48 @@
 html {
   font-family: sans-serif;
 }
+body{
+  background-color: #FFF;
+}
 nav{
   font-family: "Ubuntu", sans-serif;
+  background-color: #317A8C;
+}
+header{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: black;
+}
+nav ul li{
+  color: #FFF;
+  font-size: 2em;
+  border-right-color: #000;
+  border-right-style: solid;
+}
+a:hover, a:visited, a:link, a:active{
+  color: #000;
 }
 #logoSize{
   width: 305px;
   height: 205px;
   border: solid black thick;
+}
+.carousel-inner img {
+  margin: auto;
+  min-width: 650px;
+  min-height: 500px;
+  max-height: 500px;
+}
+#carousel{
+  margin-top: 80px;
+}
+article div{
+  background-color: #FFF;
+}
+footer div{
+  background-color: #fff;
 }
