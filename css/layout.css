@@ -27,10 +27,10 @@ nav ul li{
 }
 #carousel{
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   position: absolute;
   bottom: 0;
-  left: 150px;
+  left: 110px;
 }
 #carousel-background{
   z-index: 1;
