@@ -1,77 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Menu</title>
     <meta name="description" content="Family style Mexican Restaurant">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Archie Sahagun">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../css/main.css" rel="stylesheet" type="text/css">
     <link href="../css/layout.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <header>
-    </header>
-    <nav>
-      <ul id="navbar">
-        <a href="../index.html"><li id="logo"><img id="logoSize" src="../images/logo.png"></li></a>
-        <a href="../index.html"><li>Home</li></a>
-        <a href="menu.html"><li>Menu</li></a>
-        <a href="../specials/specials.html"><li>Specials</li></a>
-        <a href="../contact/contactus.html"><li>Contact Us</li></a>
-      </ul>
-    </nav>
-      
-<!-- I figured putting the menu items in lists would be best, (also most mobile friendly) and easiest to match up with images, otherwise there isn't much chance of that in just uploading the word docs. (BMN - 5/24)    -->
-<!-- I will continue to work on this after initial push, to add image thumbnails as we go, etc (BMN 5/25)     -->
-    <div class="container">
-        <h1>Menus</h1>
-        <ul class="nav nav-pills nav-stacked" >
-            <li class="active"><a href="#"></a></li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#lunch"> Lunch Menu <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#soups">Soups &amp; Salads</a></li>
-                    <li><a href="#burritos">Burritos</a></li>
-                    <li><a href="#combo">Lunch Combinations</a></li>
-                    <li><a href="#special">Lunch House Specials</a></li>
-                    <li><a href="#sides">Side Orders</a></li>
-                    <li><a href="#beverages">Beverages</a></li>
-                </ul>
-            </li>
-            <li><a class="dropdown-toggle" data-toggle="dropdown" href="#dinner">Dinner Menu<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#apps">Appetizers</a></li>
-                    <li><a href="#soupsalad">Soups &amp; Salads</a></li>
-                    <li><a href="#bev">Beverages</a></li>
-                    <li><a href="#beer">Beer</a></li>
-                    <li><a href="#tradition">Traditional Mexican Dishes</a></li>
-                    <li><a href="#fajitas">Fajitas</a></li>
-                    <li><a href="#house">House Specialties</a></li>
-                    <li><a href="#mariscos">Mariscos (Seafood)</a></li>
-                    <li><a href="#carne">Carne (Beef)</a></li>
-                    <li><a href="#pollo">Pollo (Chicken)</a></li>
-                    <li><a href="#burr">Burritos</a></li>
-                    <li><a href="#ench">Enchiladas</a></li>
-                    <li><a href="#veg">Vegetarian Plates</a></li>
-                    <li><a href="#sideorder">Side Orders</a></li>
-                    <li><a href="#scombo">Small Combination Plates</a></li>
-                    <li><a href="#cd">Combination Dinners</a></li>
-                    <li><a href="#am">American Plates</a></li>
-                    <li><a href="#desserts">Desserts</a></li>
-                    
-                </ul>
-            </li>
+    <div id="top-part">
+      <header>
+          <p>Hours: 11AM-9PM Everyday! Call: (206) 436-0850</p>
+      </header>
+      <nav>
+        <ul id="navbar">
+          <a href="../index.html"><li id="logo"><img id="logoSize" src="../images/logo.png" alt="logo"></li></a>
+          <a href="../index.html"><li>HOME</li></a>
+          <a href="menu.html"><li>MENU</li></a>
+          <a href="../specials/specials.html"><li>SPECIALS</li></a>
+          <a href="../contact/contactus.html"><li>CONTACT US</li></a>
         </ul>
-        </div>
-        
-<h1> Lunch Menu <br> <em>Served Daily 11:00 am - 3:00 pm</em></h1>
-      <h2 id="soups"> Soups &amp; Salads</h2>
+      </nav>
+    </div>
+      <br><br><br><br>
+    <article>
+      <div id="content">
+<div class="container">
+  <h2>Lunch menu</h2>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Soups &amp; Salads</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body"><h2 id="soups"> Soups &amp; Salads</h2>
               <ul>
                   <li><strong>Taco Salad</strong><br> Beef: <em>$6.50</em><br> Chicken or Picadillo: <em>$6.75</em><br> For Deluxe: <em>add $2.25</em> </li>
                   <br>
@@ -79,14 +52,32 @@
                   <br>
                   <li><strong>Tortilla Soup</strong> <em>$5.95</em><br> Hot and hearty chunks of tender chicken breast and fresh avocado, with tortilla strips and shredded cheese in a rich chicken broth. </li>
                   <br>
-              </ul>
-<h2 id="burritos">Burritos</h2>      
+              </ul></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Burritos</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><h2 id="burritos">Burritos</h2>      
               <ul>
                   <li><strong>Super Burrito</strong> <em>$7.75</em><br> Flour tortilla filled with rice, beans and your choice of beef or chicken. Topped with lettuce, tomatoes, sour cream and Parmesan cheese</li>
                   <br>
                   <li><strong>Expresso Burrito</strong> <em>$7.75</em><br> Flour tortilla filled with rice, beans, and your choice of beef or chicken.<br> Topped with guacamole, tomatoes, and onions.</li>
-              </ul>
-<h2 id="combo">Lunch Combinations <br> <em>All lunch combinations are served with rice and beans.</em></h2>   
+              </ul></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lunch Combinations</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"><h2 id="combo">Lunch Combinations <br> <em>All lunch combinations are served with rice and beans.</em></h2>   
               <ul>
                   <li><em><strong>#1</strong></em> Burrito<br> <em>Cheese or Ground Beef: $7.75</em><br> <em>Chicken or Picadillo: $8.25</em></li>
                   <br>
@@ -109,8 +100,17 @@
                   <li><em><strong>#10</strong></em> Two Tacos<br> <em>Cheese or Ground Beef: $7.75</em><br> <em>Chicken or Picadillo: $8.25</em></li>
                   <br>
               </ul>
-      <p><em>For Substitutions on Lunch Combos add $1.00</em></p>
-<h2 id="special">Lunch House Specials</h2>
+      <p><em>For Substitutions on Lunch Combos add $1.00</em></p></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lunch House Specials</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"><h2 id="special">Lunch House Specials</h2>
               <ul>
                   <li><strong>Arroz Con Pollo</strong> <em>$9.95</em><br> Boneless breast of chicken sautéed in a special sauce with mushrooms and spring onions.<br> Served over a bed of rice and melted Monterey Jack cheese.
                   </li>
@@ -128,8 +128,16 @@
                   </li>
                   <br>
                   <li><strong>*Arroz Con Camarones</strong> <em>$10.75</em><br> Prawns sautéed with mushrooms and crispy vegetables in a unique sauce.<br> Served over a bed of rice and melted cheese.<br> Includes tortillas. </li>
-              </ul>
-      <h2 id="sides"><strong>Side Orders</strong><br> <em>**Choice of Cheese, Beef, or Chicken</em></h2> 
+              </ul></div>
+      </div>
+    </div><div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Side Orders</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body"><h2 id="sides"><strong>Side Orders</strong><br> <em>**Choice of Cheese, Beef, or Chicken</em></h2> 
               <ul>
                   <li><strong>**Taco</strong> <em>$2.25</em></li>
                   <br>
@@ -158,8 +166,18 @@
                   <li><strong>Rice &amp; Beans</strong> <em>$4.25</em></li>
                   <br>
                   <li><strong>Tortillas</strong> <em>$1.50</em></li>
-              </ul>
-<h2 id="beverages">Beverages</h2>
+              </ul><p><em>*Consuming raw or undercooked eggs, meats, poultry, shellfish or seafood may 
+increase your risk of foodborne illness</em></p></div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Beverages</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body"><h2 id="beverages">Beverages</h2>
               <ul>
                   <li><strong>Soft Drinks</strong> (Coca-Cola Products) <em>$2.75</em></li>
                   <br>
@@ -171,12 +189,20 @@
                   <br>
                   <li><strong>Milk</strong> <em>$2.75</em></li>
               </ul>
-      <p><em>*Consuming raw or undercooked eggs, meats, poultry, shellfish or seafood may 
-increase your risk of foodborne illness</em></p>
-            
-      
-      <h1>Dinner Menu</h1>
-<h2 id="apps">Appetizers</h2>
+              </div>
+      </div>
+      </div>
+  <div class="container">
+  <h2>Dinner Menu</h2>
+  <div class="panel-group" id="accordion2">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Appetizers</a>
+        </h4>
+      </div>
+      <div id="collapse7" class="panel-collapse collapse in">
+        <div class="panel-body"><h2>Appetizers</h2>
               <ul>
                   <li><strong>Cheese Nachos</strong>	<em>Sm $6.00     Lg $8.00</em><br>	
         Fresh, crispy chips with Cheddar cheese and garnished with tomatoes and green onions</li>
@@ -230,30 +256,18 @@ increase your risk of foodborne illness</em></p>
 add $3.00<br>
 Whole beans available as substitute for 
 refried beans. 
-          </strong></em></p>
-<h2 id="soupsalad">Soups &amp; Salads</h2>
-              <ul>
-                  <li><strong>Tortilla Soup</strong> 				<em>$8.50</em><br>
-        Hot and hearty chunks of tender chicken 
-        breast and fresh avocado, with tortilla strips and shredded cheese in a rich chicken broth.</li>
-                  <br>
-                  <li><strong>Dinner Salad</strong>				<em>$4.75</em><br>
-        Lettuce, tomatoes, carrots and cheese.
-        </li>
-                  <br>
-                  <li><strong>Archie’s Salad</strong>                               <em>$11.75</em><br>
-        Char-broiled chicken with lettuce, tomatoes, carrots and cheese.	</li>
-                  <br>
-                  <li><strong>Taco Salad</strong><br>			
-                      Beef: <em>$8.50</em>    Chicken or Picadillo: 	<em>$8.75</em>
-        </li>
-                  <br>
-                  <li><strong>Tostada</strong><br> 
-                      Beef: <em>$8.50</em>	Chicken or Picadillo: 	<em>$8.75</em>
-        </li>
-                  <br>
-              </ul>
-<h2 id="bev">Beverages</h2>
+          </strong></em></p></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse8">
+        Beverages</a>
+      </h4>
+    </div>
+    <div id="collapse8" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Beverages</h2>
               <ul>
                   <li><strong>Soft drinks</strong> <strong><em>(Coca-cola products)</em></strong> 	<em>$2.75</em><br>
         Coke, Diet Coke, Sprite, Root Beer, Lemonade</li>
@@ -273,8 +287,18 @@ refried beans.
                       <br>
                   <li><strong>Margarita:</strong>  <em>Regular (Lime) or Strawberry</em>                             </li>
                   <br>
-              </ul>
-      <h3 id="beer">Beer</h3>
+              </ul></div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse9">
+        Beer</a>
+      </h4>
+    </div>
+    <div id="collapse9" class="panel-collapse collapse">
+      <div class="panel-body"><h3>Beer</h3>
               <ul>
                   <li><strong>Bottled American Beers:</strong> <em>Budweiser, Bud Light, Coors Light, O’Douls n/a.</em>
         </li>
@@ -285,8 +309,18 @@ refried beans.
                   <li><strong>Draft Beers:</strong> <em>Please ask your server about current selection</em>
         </li>
                   <br>
-              </ul>
-<h2 id="tradition">Traditional Mexican Dishes</h2>
+              </ul></div>
+    </div>
+  </div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse10">
+        Traditional Mexican Dishes</a>
+      </h4>
+    </div>
+    <div id="collapse10" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Traditional Mexican Dishes</h2>
       <h3><em>Served with Spanish rice and refried beans.</em></h3>
               <ul>
                   <li><strong>Tacos al Carbon</strong>  <em>$17.25</em><br>
@@ -317,8 +351,18 @@ refried beans.
                   <li><strong>Camarones Chipotle o a la Crema</strong>  <em>$18.50</em><br>
         Prawns sautéed with our Chipotle or cream sauce with carrots, mushrooms and onions.<br>  Served with rice, beans and tortillas.</li>
                   <br>
-              </ul>
-<h2 id="fajitas"><strong>Fajitas</strong></h2>
+              </ul></div>
+    </div>
+  </div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
+        Fajitas</a>
+      </h4>
+    </div>
+    <div id="collapse11" class="panel-collapse collapse">
+      <div class="panel-body"><h2><strong>Fajitas</strong></h2>
     <h3><em>All fajita dishes are served sizzling hot over a bed of 
 sautéed onions and green peppers.<br>
 Served with Spanish rice, refried beans, tortillas, 
@@ -333,9 +377,19 @@ Pico de Gallo, sour cream and guacamole.
                 <li><strong>Seafood Fajitas</strong> 	<em>$20.25</em><br>
          With prawns and Tilapia
     </li>
-                <br>
-            </ul>
-    <h2 id="house">House Specialties</h2>
+        <br>
+            </ul></div>
+    </div>
+  </div>
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse12">
+        House Specialties</a>
+      </h4>
+    </div>
+    <div id="collapse12" class="panel-collapse collapse">
+      <div class="panel-body"><h2>House Specialties</h2>
           <h3><em>Served with rice, refried beans and tortillas.</em></h3>
                 <ul>
                     <li><strong>Chef’s Special</strong>			<em>$19.25</em><br>	
@@ -353,8 +407,18 @@ Pico de Gallo, sour cream and guacamole.
                     <li><strong>*Cielo, Mar y Tierra</strong>			<em>$23.25</em><br>
     Skirt steak and chicken cooked over charcoal, with bacon-wrapped prawns.<br> Garnished with sautéed green pepper, onions and mushrooms.<br> Served with rice and beans, guacamole and tortillas. </li>
                     <br>
-                </ul>
-<h2 id="mariscos">Mariscos (Seafood) </h2>  
+                </ul></div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse13">
+        Mariscos (seafood) </a>
+      </h4>
+    </div>
+    <div id="collapse13" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Mariscos (Seafood) </h2>  
                 <ul>
                     <li><strong>*Cancun Platter</strong>			<em>$19.25</em><br>	
     Prawns, crab, and chicken cooked with mushrooms, onions and tomatoes,<br> topped with Monterey Jack cheese and guacamole.
@@ -389,8 +453,18 @@ Pico de Gallo, sour cream and guacamole.
     Bacon wrapped prawns served on a bed of onions, topped with Monterey Jack cheese.<br> Served with rice, beans, sour cream, guacamole and tortillas.
     </li>
                     <br>
-                </ul>
-<h2 id="carne">Carne (Beef) </h2>    
+                </ul></div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse14">
+        Carne (beef)</a>
+      </h4>
+    </div>
+    <div id="collapse14" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Carne (Beef) </h2>    
       <h3><em>Served with Spanish rice and refried beans.</em></h3>
                 <ul>
                     <li><strong>Carne Asada</strong>				<em>$18.25</em><br>
@@ -420,8 +494,18 @@ Pico de Gallo, sour cream and guacamole.
     Chunks of tender pork cooked in a light tomatillo sauce with green peppers, onions and spices. 
     </li>
                     <br>
-                </ul>
-<h2 id="pollo">Pollo (Chicken) </h2>    
+                </ul></div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse15">
+        Pollo (chicken) </a>
+      </h4>
+    </div>
+    <div id="collapse15" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Pollo (Chicken) </h2>    
       <h3><em>Served with Spanish rice and refried beans, except where noted. </em></h3>
                     <ul>
                         <li><strong>Arroz Con Pollo</strong>			<em>$16.25</em><br>
@@ -452,8 +536,18 @@ Pico de Gallo, sour cream and guacamole.
     Boneless chicken cooked in our sweet and spicy Mexican sauce.
     </li>
                         <br>
-                    </ul>
-<h2 id="burr">Burritos</h2>
+                    </ul></div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse16">
+        Burritos</a>
+      </h4>
+    </div>
+    <div id="collapse16" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Burritos</h2>
                         <ul>
                             <li><strong>*Burrito Acapulco</strong>			<em>$18.50</em><br>
     Flour tortilla filled with prawns, scallops and crab with mushrooms, onions and green peppers.<br> Topped with a special sauce, Monterey Jack cheese and avocado slices. 
@@ -482,9 +576,18 @@ Pico de Gallo, sour cream and guacamole.
     Your choice of ground beef, chicken or picadillo.<br> Topped with melted cheese and sauce. Served with rice and beans.
     </li>
                             <br>
-
-                        </ul>
-<h2 id="ench">Enchiladas</h2>  
+                        </ul></div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse17">
+        Enchiladas </a>
+      </h4>
+    </div>
+    <div id="collapse17" class="panel-collapse collapse">
+      <div class="panel-body"><h2 id="ench">Enchiladas</h2>  
                         <ul>
                             <li><strong>Enchiladas a La Crema</strong>		<em>$12.75</em><br>
     Two chicken enchiladas smothered with a blend of sour cream and Parmesan cheese with just a touch of spices. 
@@ -510,8 +613,18 @@ Pico de Gallo, sour cream and guacamole.
                             <br>
                             <li><strong>One Enchilada</strong>           <em>$9.95</em><br>
                                 soft corn tortilla filled with your choice of seasoned ground beef, chicken, picadillo or cheese and onions,<br> then topped with our enchilada sauce and melted cheese.</li>
-                        </ul>
-    <h2 id="veg">Vegetarian Plates</h2>  
+                        </ul></div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse18">
+        Vegetarian Plates</a>
+      </h4>
+    </div>
+    <div id="collapse18" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Vegetarian Plates</h2>  
                         <ul>
                             <li><strong>Enchiladas  de Espinaca</strong>		<em>$14.50</em><br>
     Two corn tortillas stuffed with spinach, Jack cheese and topped with Pico de Gallo.</li>
@@ -520,8 +633,18 @@ Pico de Gallo, sour cream and guacamole.
     Filled with whole beans, rice and vegetables, guacamole, cheese and sour cream.<br> Topped with sauce and melted cheese.
     </li>
                             <br>
-                        </ul>
-<h2 id="sideorder">Side Orders</h2>   
+                        </ul></div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse19">
+        Side Orders</a>
+      </h4>
+    </div>
+    <div id="collapse19" class="panel-collapse collapse">
+      <div class="panel-body"><h2 id="sideorder">Side Orders</h2>   
                         <ul>
                             <li><strong>Taco</strong> <em>$2.25</em><br> <em>Cheese, Beef, Chicken, or Picadillo</em></li>
                             <br>
@@ -553,8 +676,18 @@ Pico de Gallo, sour cream and guacamole.
                             <br>
                             <li><strong>Tortillas</strong> <em>$1.75</em></li>
                             <br>
-                        </ul>
-<h2 id="scombo">Small Combination Plates</h2>
+                        </ul></div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse20">
+        Small Combination Plates</a>
+      </h4>
+    </div>
+    <div id="collapse20" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Small Combination Plates</h2>
       <h3><em>Choice of ground beef, chicken or picadillo.<br> 
           Served with Spanish rice and refried beans. </em> </h3>
                         <ul>
@@ -570,8 +703,18 @@ Pico de Gallo, sour cream and guacamole.
                             <br>
                             <li><em><strong>S6 - </strong></em><strong>Enchilada &amp; Tostada</strong> <em>$10.95</em></li>
                             <br>
-                        </ul>
-    <h2 id="cd">Combination Dinners</h2>  
+                        </ul></div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
+        Combination Dinners</a>
+      </h4>
+    </div>
+    <div id="collapse21" class="panel-collapse collapse">
+      <div class="panel-body"><h2 id="cd">Combination Dinners</h2>  
       <h3><em>Choice of ground beef, chicken or picadillo.<br> 
           Served with Spanish rice and refried beans (Except #19.) </em></h3>
                         <ul>
@@ -622,7 +765,20 @@ Pico de Gallo, sour cream and guacamole.
 Whole beans available instead of refried beans.<br> 
           Add Deluxe (Sour Cream and Guacamole) for: <em>$3.00</em>
       </p>
-<h2 id="am">American Plates</h2> 
+         <p><em><strong>*Consuming raw or undercooked eggs, meats, poultry, shellfish or seafood may 
+increase your risk of food borne illness.
+          </strong></em></p></div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse22">
+        American Plates</a>
+      </h4>
+    </div>
+    <div id="collapse22" class="panel-collapse collapse">
+      <div class="panel-body"><h2>American Plates</h2> 
                         <ul>
                             <li><strong>*Steak with French Fries </strong> <em>$15.95</em></li>
                             <br>
@@ -633,19 +789,30 @@ Whole beans available instead of refried beans.<br>
                             <li><strong>Grilled Cheese Sandwich </strong> <em>$5.75</em></li>
                             <br>
                         </ul>
-                
-<h2 id="desserts">Desserts</h2>   
+                </div>
+    </div>
+  </div>
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion2" href="#collapse23">
+        Desserts</a>
+      </h4>
+    </div>
+    <div id="collapse23" class="panel-collapse collapse">
+      <div class="panel-body"><h2>Desserts</h2>   
                         <ul>
                             <li><strong>Apple Chimichanga </strong> <em>$4.95</em></li>
                             <br>
                             <li><strong>Deep Fried Ice Cream </strong> <em>$3.75</em></li>
                             <br>
                             <li><strong>Churros </strong> <em>$4.75</em></li>
-                        </ul>
-      <p><em><strong>*Consuming raw or undercooked eggs, meats, poultry, shellfish or seafood may 
-increase your risk of food borne illness.
-          </strong></em></p>
+                        </ul></div>
     </div>
+    </div>
+     </div> 
       </div>
-  </body>
-</html>
+       </div>
+      </article>
+     </body>
+    </html> 
