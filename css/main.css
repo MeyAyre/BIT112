@@ -35,6 +35,16 @@ nav ul li{
 a:hover, a:visited, a:link, a:active{
   color: #000;
 }
+
+.contact li, .socialmedia li{
+  list-style: none;
+}
+
+#yelp{
+  max-width: 60px;
+  height: auto;
+}
+
 #logoSize{
   width: 305px;
   height: 205px;
