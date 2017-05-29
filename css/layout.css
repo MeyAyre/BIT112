@@ -30,6 +30,9 @@ nav ul li{
 article div h1{
   text-align: center;
 }
+.panel{
+  width:50%;
+}
 #logo{
   position: absolute;
   left: -130px;
