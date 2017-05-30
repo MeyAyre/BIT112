@@ -10,14 +10,16 @@ nav{
   height: 10px;
 }
 nav ul{
-  margin: 0 auto;
-  margin-left: 15%;
+  margin-left: -3em;
+  margin-top: -3em;
 }
 nav ul li{
   display: inline-block;
   list-style: none;
-  padding-left: 9%;
+  text-indent: 5em;
+  text-align: center;
 }
+
 .contact, .socialmedia{
   display: inline-block;
 }
@@ -35,10 +37,9 @@ article div h1{
 }
 #logo{
   position: absolute;
-  left: -4.19em;
-  top: -1px;
-  border-right: none;
-  z-index: 2
+  top: 0;
+  left: 35%;
+  z-index: 2;
 }
 #carousel{
   margin: 0 auto;
@@ -50,6 +51,11 @@ article div h1{
 .container{
   margin: 0 auto;
   text-align: center;
+  width: 75%;
+}
+.panel{
+  width: 80%;
+  margin: auto 0;
 }
 #carousel-background{
   z-index: 1;

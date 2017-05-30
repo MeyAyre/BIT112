@@ -7,22 +7,24 @@ body{
 }
 nav{
   font-family: Helvetica, "Ubuntu", sans-serif;
-  background-color: #317A8C;
+  background-color: #000;
 }
-#top-part{
-  background-color: #E6AE25;
+nav p{
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: black;
+  font-weight: bolder;
 }
 header{
   color: black;
   font-size: 22px;
   font-weight: bolder;
   text-align: center;
-   -webkit-text-fill-color: white;
-   -webkit-text-stroke-width: 0.6px;
-   -webkit-text-stroke-color: black;
-}
-header p{
-  text-indent: 100px;
+  height: 11em;
+
 }
 nav ul li{
   color: #FFF;
@@ -47,9 +49,26 @@ a:hover, a:visited, a:link, a:active{
 }
 
 #logoSize{
-  width: 305px;
-  height: 205px;
-  border: solid black thick;
+  min-width: 40%;
+  max-width: 80%;
+  min-width: auto;
+  max-height: auto;
+}
+#yellow{
+  background-color: #F1E408;
+  position: relative;
+  display: block;
+  border-bottom: solid #C14259 thin;
+  width: 100%;
+  height: 50%;
+}
+#green{
+  background-color: #03A651;
+  position: relative;
+  display: block;
+  border-top: solid #C14259 thin;
+  width: 100%;
+  height: 50%;
 }
 .carousel-inner img {
   margin: auto;
