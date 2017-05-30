@@ -102,8 +102,15 @@ nav ul li {
     padding: 4em;
     position: relative;
     align-content: center;
-    
-}     
+    /*overflow: scroll;*/
+}  
+
+.lunch, .dinner {
+   overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 20em;
+}
 
 a:hover, a:visited, a:link, a:active{
   color: #000;
