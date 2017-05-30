@@ -3,6 +3,7 @@ html {
 }
 body{
   background-color: #FFF;
+  background-image: url("../images/reblur.jpg");
 }
 nav{
   font-family: Helvetica, "Ubuntu", sans-serif;
@@ -52,9 +53,10 @@ a:hover, a:visited, a:link, a:active{
 }
 .carousel-inner img {
   margin: auto;
-  min-width: 650px;
-  min-height: 500px;
-  max-height: 500px;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 300px;
+  max-height: 300px;
 }
 #carousel{
   margin-top: 80px;
