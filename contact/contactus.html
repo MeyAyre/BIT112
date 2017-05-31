@@ -17,49 +17,79 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
   <body>
-    <div id="top-part">
       <header>
-        <div id="yellow"></div>
+        <div id="leftSide">
+          <div class="yellow"></div>
+          <div class="green" id="leftGreen"></div>
+        </div>
         <div><a id="logo" href="../index.html"><img id="logoSize" src="../images/logo.png" alt="logo"></a></div>
-        <div id="green"></div>
+        <div id="rightSide">
+          <div class="yellow" id="rightYellow"></div>
+          <div class="green"></div>
+        </div>
       </header>
-      <nav>
+      <nav class="container-fluid">
         <ul id="navbar">
-          <a href="../index.html"><li>HOME</li></a>
-          <a href="../menu/menu.html"><li>MENU</li></a>
-          <a href="../specials/specials.html"><li>SPECIALS</li></a>
-          <a href="contactus.html"><li>CONTACT US</li></a>
+          <div class="row">
+            <div class="col-sm-3">
+              <a href="../index.html"><li>HOME</li></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="../menu/menu.html"><li>MENU</li></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="../specials/specials.html"><li>SPECIALS</li></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="contactus.html"><li>CONTACT US</li></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+              <p>Hours: 11AM-9PM Everyday! Call: (206) 436-0850</p>
+            </div>
+            <div class="col-sm">
+            </div>
+          </div>
         </ul>
-        <p>Hours: 11AM-9PM Everyday! Call: (206) 436-0850</p>
       </nav>
-    </div>
     <article>
       <div id="content">
         <br>  <br>  <br>  <br>
         <h1>Contact Us</h1>
-        <div class="contact">
-          <ul>
-            <li>(206) 436-0850</li>
-            <li>
-              17821 1st Avenue South<br>
-              Burien, WA 98148
-              <br><br><br>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.4103217712463!2d-122.33697714948663!3d47.44294050716131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549044b422b9fa09%3A0x500b257434ca9008!2sArchie&#39;s!5e0!3m2!1sen!2sus!4v1495860627208" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </li>
-          </ul>
-        </div>
-        <div class="socialmedia">
-          <ul>
-            <strong><li>Find us on Facebook and Yelp!</li></strong>
-            <a href="https://www.yelp.com/biz/archies-mexican-restaurant-normandy-park" target="_blank">
+        <div class="row">
+          <div class="col-sm-8 contact">
+            <br><br><br>
+            <ul>
+              <li>We are located in Normandy Park! Call us or stop by:</li>
               <br>
-              <li><img id="yelp" src="../images/YelpBurst/Screen/Yelp_burst_positive_RGB.png" alt="Yelp Logo"></li>
-            </a>
-            <a href="https://www.facebook.com/pg/Archies-Mexican-Restaurant-131446283576205" target="_blank">
-              <br>
-              <li><img src="../images/f_logo_online/png/FB-f-Logo__blue_50.png" alt="Facebook Logo"></li>
-            </a>
-          </ul>
+              <li>(206) 436-0850</li>
+              <li>
+                17821 1st Avenue South<br>
+                Burien, WA 98148
+                <br><br><br>
+                <div class="contain-me">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.4103217712463!2d-122.33697714948663!3d47.44294050716131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549044b422b9fa09%3A0x500b257434ca9008!2sArchie&#39;s!5e0!3m2!1sen!2sus!4v1495860627208" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="socialmedia col-sm-4">
+            <br><br><br>
+            <ul>
+              <strong><li>Find us on Facebook and Yelp!</li></strong>
+              <a href="https://www.yelp.com/biz/archies-mexican-restaurant-normandy-park" target="_blank">
+                <br>
+                <li><img id="yelp" src="../images/YelpBurst/Screen/Yelp_burst_positive_RGB.png" alt="Yelp Logo"></li>
+              </a>
+              <a href="https://www.facebook.com/pg/Archies-Mexican-Restaurant-131446283576205" target="_blank">
+                <br>
+                <li><img src="../images/f_logo_online/png/FB-f-Logo__blue_50.png" alt="Facebook Logo"></li>
+              </a>
+            </ul>
+          </div>
         </div>
       </div>
     </article>

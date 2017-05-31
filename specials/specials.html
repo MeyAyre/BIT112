@@ -19,26 +19,83 @@
   <body>
     <div id="top-part">
       <header>
-        <div id="yellow"></div>
+        <div id="leftSide">
+          <div class="yellow"></div>
+          <div class="green" id="leftGreen"></div>
+        </div>
         <div><a id="logo" href="../index.html"><img id="logoSize" src="../images/logo.png" alt="logo"></a></div>
-        <div id="green"></div>
+        <div id="rightSide">
+          <div class="yellow" id="rightYellow"></div>
+          <div class="green"></div>
+        </div>
       </header>
-      <nav>
+      <nav class="container-fluid">
         <ul id="navbar">
-          <a href="../index.html"><li>HOME</li></a>
-          <a href="../menu/menu.html"><li>MENU</li></a>
-          <a href="specials.html"><li>SPECIALS</li></a>
-          <a href="../contact/contactus.html"><li>CONTACT US</li></a>
+          <div class="row">
+            <div class="col-sm-3">
+              <a href="../index.html"><li>HOME</li></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="../menu/menu.html"><li>MENU</li></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="specials.html"><li>SPECIALS</li></a>
+            </div>
+            <div class="col-sm-3">
+              <a href="../contact/contactus.html"><li>CONTACT US</li></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+              <p>Hours: 11AM-9PM Everyday! Call: (206) 436-0850</p>
+            </div>
+            <div class="col-sm">
+            </div>
+          </div>
         </ul>
-        <p>Hours: 11AM-9PM Everyday! Call: (206) 436-0850</p>
       </nav>
     </div>
     <article>
       <div id="content">
         <br>  <br>  <br>  <br>
         <h1>Specials</h1>
-        <p>All of our specials are posted on Facebook</p>
-        <iframe id="timeline" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FArchies-Mexican-Restaurant-131446283576205%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="1000" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <br><br><br>
+        <div class="row">
+          <div class="col-sm-5">
+            <div id="timeline-content">
+              <br><br>
+              <h4>All of our specials and events are posted on Facebook</h4>
+              <iframe id="timeline" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FArchies-Mexican-Restaurant-131446283576205%2F&tabs=timeline&width=400&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+          </div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4" id="special-info">
+              <h2>Everyday Specials</h2>
+              <h4>Happy Hour</h4>
+              <div class="tighter"?
+                <p>
+                  Come in between 3PM and 6PM for happy hour!
+                </p>
+              </div>
+              <br>
+              <h4>Lunch Specials</h4>
+              <div class="tighter">
+                <p>
+                  Can't make it to happy hour? We have lunch specials for $5.99 everyday!
+                </p>
+              </div>
+                <br>
+              <h3>Having an Event? Have it at Archie's!</h3>
+              <div class="tighter">
+                <p>
+                  We have a bar*, patio*, and banquet room available to reserve for events.<br><br>
+                  *Minors not allowed.
+                </p>
+            </div>
+          </div>
+        </div>
       </div>
     </article>
   </body>

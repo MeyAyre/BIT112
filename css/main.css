@@ -8,6 +8,12 @@ body{
 nav{
   font-family: Helvetica, "Ubuntu", sans-serif;
   background-color: #000;
+  width: 100%;
+}
+#navbar{
+  background-color: #000;
+  z-index: 3;
+  width: 100%;
 }
 nav p{
   font-size: 1.5em;
@@ -54,31 +60,56 @@ a:hover, a:visited, a:link, a:active{
   min-width: auto;
   max-height: auto;
 }
-#yellow{
-  background-color: #F1E408;
+#leftSide{
+  width: 50%;
+  height: 97.9%;
+  margin-left: -50%;
+  display: inline-block;
   position: relative;
-  display: block;
-  border-bottom: solid #C14259 thin;
-  width: 100%;
-  height: 50%;
 }
-#green{
-  background-color: #03A651;
+#leftGreen{
+  height: 53.3%;
+}
+#rightSide{
+  width:50%;
+  right: 0;
+  top: 0;
+  height: 40%;
+  display: inline-block;
+  position: absolute;
+}
+#rightYellow{
+  height: 51.3%;
+}
+
+.yellow{
+  background-color: #FFF200;
   position: relative;
   display: block;
-  border-top: solid #C14259 thin;
+  border-bottom: solid #C14259 2.9px;
   width: 100%;
   height: 50%;
+  z-index: 0;
+}
+.green{
+  background-color: #00A651;
+  position: relative;
+  display: block;
+  border-top: solid #C14259 1px;
+  width: 100%;
+  height: 30%;
+  z-index: 0;
 }
 .carousel-inner img {
-  margin: auto;
+  margin: 0 auto;
   min-width: 250px;
   max-width: 250px;
   min-height: 300px;
   max-height: 300px;
 }
 #carousel{
-  margin-top: 80px;
+  margin-top: 20em;
+  width: 50;
 }
 article div{
   background-color: #FFF;
