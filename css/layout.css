@@ -7,12 +7,10 @@ nav{
   border-width: thick;
   border-style: solid;
   border-color: #000;
-  padding: 46px;
-  height: 10em;
+  width: 100%;
+  height: 5em;
 }
 nav ul{
-  margin-left: -3em;
-  margin-top: -3em;
 }
 nav ul li{
   display: inline-block;
@@ -26,8 +24,6 @@ article div h1{
 .contact, .socialmedia{
   display: inline-block;
 }
-.contact{
-}
 .socialmedia{
   text-align: center;
 }
@@ -38,10 +34,13 @@ article div h1{
   width: 75%;
 }
 .panel{
-  width: 80%;
+  width: 100%;
   margin: auto 0;
+  text-align: center;
 }
-
+.panel-body{
+  margin-left: 15%;
+}
 #logo{
   position: absolute;
   top: 0;
@@ -66,11 +65,12 @@ article div h1{
 }
 #content{
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   height: 100%;
-  padding-bottom: 10%;
+  margin-top: 5em;
+  padding-bottom: 4em;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 .row{
   margin: 0 auto;
@@ -78,10 +78,17 @@ article div h1{
 }
 .contain-me {
    position: relative;
-   padding-bottom: 56.25%;
+   padding-bottom: 58.25%;
    padding-top: 35px;
    height: 0;
    overflow: hidden;
+}
+.lunch, .dinner {
+   overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 20em;
+    max-width: 60em;
 }
 
 .contain-me iframe {

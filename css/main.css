@@ -7,12 +7,16 @@ body{
 }
 nav{
   font-family: Helvetica, "Ubuntu", sans-serif;
+  align-content: center;
+  position: relative;
+  display: table;
   background-color: #000;
-  width: 100%;
 }
 #navbar{
   background-color: #000;
   z-index: 3;
+  width: 100%;
+  position: relative;
   width: 100%;
 }
 nav p{
@@ -30,7 +34,6 @@ header{
   font-weight: bolder;
   text-align: center;
   height: 11em;
-
 }
 nav ul li{
   color: #FFF;
@@ -48,7 +51,6 @@ a:hover, a:visited, a:link, a:active{
 .contact li, .socialmedia li{
   list-style: none;
 }
-
 #yelp{
   max-width: 60px;
   height: auto;
@@ -57,7 +59,7 @@ a:hover, a:visited, a:link, a:active{
 #logoSize{
   min-width: 40%;
   max-width: 80%;
-  min-width: auto;
+  min-height: auto;
   max-height: auto;
 }
 #leftSide{
