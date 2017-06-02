@@ -2,7 +2,7 @@ html {
   font-family: sans-serif;
 }
 body{
-  background-color: #FFF;
+    background-image: image(reblur.jpg)
     max-width: 100%;
 }
 nav {
@@ -39,6 +39,17 @@ nav ul li {
 }
 article {
     text-align: center;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 #logo {
@@ -102,7 +113,18 @@ nav ul li {
     padding: 4em;
     position: relative;
     align-content: center;
-    /*overflow: scroll;*/
+    background-color: #00a651;
+    
+}
+
+.panel-title {
+        background-color: #990000;
+        line-height: 3em;
+        font-size: 2em;
+        font-weight: 700;
+        color: white;
+        text-shadow: .5px .2px white ;
+        border: 2px black solid;
 }  
 
 .lunch, .dinner {
@@ -110,6 +132,10 @@ nav ul li {
     overflow-x: scroll;
     overflow-y: scroll;
     max-height: 20em;
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px #b20000;
+    
 }
 
 a:hover, a:visited, a:link, a:active{
