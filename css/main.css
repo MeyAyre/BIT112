@@ -57,6 +57,31 @@ a:hover, a:visited, a:link, a:active{
   min-height: auto;
   max-height: auto;
 }
+.lun-men{
+  color: #FFF;
+  text-shadow: .5px .2px white;
+}
+.panel-default > .panel-heading{
+  background-color:#6d1f1f;
+}
+.panel-default > .panel-heading > .row {
+  margin-top: -1em;
+}
+.colored{
+  background-color: #e8e5c5;
+}
+.panel{
+  background-color: #006631;
+}
+.panel-title {
+  font-weight: 700;
+  text-shadow: .5px .2px white ;
+}
+.panel-title a{
+  color: white;
+}
+
+
 .carousel{
   max-height: 100%;
   min-width: 100%;

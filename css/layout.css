@@ -31,7 +31,6 @@ article div h1{
   text-align: center;
 }
 .panel-body{
-  padding-left: 13%;
   text-align: center;
 }
 .panel-body ul li{
@@ -85,7 +84,7 @@ article div h1{
     overflow-x: scroll;
     overflow-y: scroll;
     max-height: 20em;
-    max-width: 60em;
+    padding-right: 2em;
 }
 
 .contain-me iframe {
