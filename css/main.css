@@ -62,7 +62,7 @@ a:hover, a:visited, a:link, a:active{
   text-shadow: .5px .2px white;
 }
 .panel-default > .panel-heading{
-  background-color:#6d1f1f;
+  background-color: #ffff4c;
 }
 .panel-default > .panel-heading > .row {
   margin-top: -1em;
